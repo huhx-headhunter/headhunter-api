@@ -12,13 +12,13 @@ var (
 	DOCTORAL = EducationLevel{Value: 2, Description: "博士"}
 )
 
-var statusByValue = map[int]EducationLevel{
+var educationLevelStatusByValue = map[int]EducationLevel{
 	BACHELOR.Value: BACHELOR,
 	MASTER.Value:   MASTER,
 	DOCTORAL.Value: DOCTORAL,
 }
 
-func FromValue(code int) EducationLevel {
-	status, _ := statusByValue[code]
+func EducationLevelFromValue(code int) EducationLevel {
+	status, _ := educationLevelStatusByValue[code]
 	return status
 }
