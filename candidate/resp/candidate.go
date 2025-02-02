@@ -1,4 +1,4 @@
-package response
+package resp
 
 import "github.com/huhx-headhunter/headhunter-api/candidate/enum"
 
