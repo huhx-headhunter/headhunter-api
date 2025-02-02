@@ -1,6 +1,6 @@
 package response
 
-import "github.com/huhx/headhunter-api/candidate/enum"
+import "github.com/huhx-headhunter/headhunter-api/candidate/enum"
 
 type CandidateResponse struct {
 	Id         int64               `json:"id"`

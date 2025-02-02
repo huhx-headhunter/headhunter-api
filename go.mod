@@ -1,4 +1,4 @@
-module github.com/huhx/headhunter-api
+module github.com/huhx-headhunter/headhunter-api
 
 go 1.23.5
 
