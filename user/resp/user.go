@@ -6,7 +6,7 @@ type TokenResponse struct {
 	Token string `json:"token"`
 }
 
-type UserListRespItem struct {
+type UserItemResp struct {
 	Id       int64  `json:"id"`
 	Name     string `json:"name"`
 	Username string `json:"username"`

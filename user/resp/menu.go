@@ -1,6 +1,6 @@
 package resp
 
-type MenuListRespItem struct {
+type MenuItemResp struct {
 	Id        int64  `json:"id"`
 	Channel   string `json:"channel"`
 	Parent    int64  `json:"parent"`
