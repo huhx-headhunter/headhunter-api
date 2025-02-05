@@ -10,7 +10,6 @@ type MenuAddRequest struct {
 }
 
 type MenuUpdateRequest struct {
-	Id        int64  `json:"id"`
 	Channel   string `json:"channel"`
 	Parent    int64  `json:"parent"`
 	Path      string `json:"path"`
