@@ -1,7 +1,10 @@
 module github.com/huhx-headhunter/headhunter-api
 
-go 1.23.5
+go 1.25.1
 
-require github.com/huhx/common-go v0.0.16-0.20250201131447-32f676e71db3
+require (
+	github.com/goccy/go-json v0.10.5
+	github.com/huhx/common-go v0.0.22
+)
 
-require github.com/6tail/lunar-go v1.3.15 // indirect
+require github.com/6tail/lunar-go v1.4.5 // indirect
